@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="266" viewBox="0 0 1366 266">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.066" y1="1" x2="0.895" y2="-0.724" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#48a6a4"/>
+      <stop offset="0.017" stop-color="#48a6a4"/>
+      <stop offset="0.111" stop-color="#3d8d89"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10330" data-name="Rectangle 10330" width="1366" height="266" transform="translate(0 4621)" opacity="0.8" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_10332" data-name="Rectangle 10332" width="371" height="247" transform="translate(995 4621)" fill="#fff" opacity="0"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_20" data-name="Mask Group 20" transform="translate(0 -4621)" opacity="0.05" clip-path="url(#clip-path)">
+    <g id="Mask_Group_21" data-name="Mask Group 21" clip-path="url(#clip-path-2)">
+      <g id="Ellipse_46" data-name="Ellipse 46" transform="translate(995 4223.083)" fill="none" stroke="#fff" stroke-width="71">
+        <circle cx="318" cy="318" r="318" stroke="none"/>
+        <circle cx="318" cy="318" r="282.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

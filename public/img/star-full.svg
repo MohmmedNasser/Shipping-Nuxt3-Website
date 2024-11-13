@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.161" height="22.161" viewBox="0 0 22.161 22.161">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.166" y1="-3.351" x2="0.216" y2="1.151" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8a300"/>
+      <stop offset="0.1" stop-color="#ebbb38"/>
+      <stop offset="0.224" stop-color="#f8a300"/>
+      <stop offset="1" stop-color="#ebbb38"/>
+    </linearGradient>
+  </defs>
+  <g id="Group" transform="translate(11.187 0) rotate(45)">
+    <path id="Vector" d="M12.162,1.711l-.056,3.035A1.666,1.666,0,0,0,12.7,5.963l1.986,1.505c1.273.961,1.065,2.138-.456,2.618l-2.586.809a1.669,1.669,0,0,0-1,1.049L10.024,14.3c-.488,1.858-1.706,2.042-2.714.408L5.9,12.425a1.648,1.648,0,0,0-1.345-.7l-2.674.136c-1.914.1-2.458-1.009-1.209-2.466L2.257,7.549a1.666,1.666,0,0,0,.3-1.417L1.745,3.545c-.472-1.521.376-2.362,1.89-1.866L6,2.456a1.671,1.671,0,0,0,1.337-.208L9.8.47C11.129-.491,12.194.07,12.162,1.711Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
