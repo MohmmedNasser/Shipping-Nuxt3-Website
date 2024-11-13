@@ -80,7 +80,7 @@
 
                 <div class="flex items-center gap-[10px]">
                     <div class="flex items-center gap-[10px]">
-                        <nuxt-link to=""
+                        <!-- <nuxt-link to=""
                             class="second-btn text-[12px] font-bold px-[17px] py-[6px] h-[30px] cursor-pointer">
                             {{ $t('start_your_trial_for_free') }}
                         </nuxt-link>
@@ -112,7 +112,7 @@
                                 </g>
                             </svg>
                             <span class="hidden md:flex">{{ $t('sign_in') }}</span>
-                        </nuxt-link>
+                        </nuxt-link> -->
                     </div>
                     <div class="header-lang">
                         <Dropdown />

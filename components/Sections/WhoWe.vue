@@ -14,7 +14,8 @@
                         <span class="font-bold">{{ $t('saudi_company') }}</span>
                         {{ $t('about_us_desc') }}
                     </p>
-                    <a href="" class="main-btn gap-[8.4px] font-bold text-[14px] py-[7px] px-[14px] ms-[22px]">
+                    <NuxtLink to="/services"
+                        class="main-btn gap-[8.4px] font-bold text-[14px] py-[7px] px-[14px] ms-[22px]">
                         <span>{{ $t('find_out_more') }}</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24.253" height="24.253"
                             viewBox="0 0 24.253 24.253">
@@ -36,7 +37,7 @@
                                 </g>
                             </g>
                         </svg>
-                    </a>
+                    </NuxtLink>
                 </div>
                 <div class="relative mt-[20px] lg:mt-[0px]">
                     <NuxtImg class="img-fluid select-none pointer-events-none" src="/img/who-we-section-img.png"

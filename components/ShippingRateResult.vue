@@ -44,14 +44,14 @@
         <div class="flex flex-wrap gap-[15px] md:flex-nowrap items-center md:gap-[27px]">
             <div class="flex items-center gap-[5px]">
                 <label class="flex items-center gap-[5px]">
-                    <img src="/img/kg.svg" alt="" class="img-fluid" loading="lazy">
+                    <img src="/img/kg.svg" alt="kg" title="kg" class="img-fluid" loading="lazy">
                     <span class="text-[14px] font-bold text-[#3D8D89]"> {{ $t('actual_weight') }} :</span>
                 </label>
                 <p class="text-[14px] font-semibold">{{ $t('kg') }}</p>
             </div>
             <div class="flex items-center gap-[5px]">
                 <label class="flex items-center gap-[5px]">
-                    <img src="/img/kg.svg" alt="" class="img-fluid" loading="lazy">
+                    <img src="/img/kg.svg" alt="kg" title="kg" class="img-fluid" loading="lazy">
                     <span class="text-[14px] font-bold text-[#3D8D89]"> {{ $t('volumetric_weight') }} :</span>
                 </label>
                 <p class="text-[14px] font-semibold">0.4692</p>
@@ -85,7 +85,7 @@
                 <template v-else>
                     <span class="text-[27px] font-bold text-[#3D8D89] pe-8px flex items-center gap-[4px] leading-[0]">
                         42.4 <sub class="text-[17px] font-bold">{{ $t('currancy') }}</sub>
-                        <img src="/img/calculator.svg" alt="" class="img-fluid">
+                        <img src="/img/calculator.svg" alt="calculator" title="calculator" class="img-fluid">
                     </span>
                 </template>
 
@@ -118,7 +118,7 @@
                 <div class="flex items-center gap-[5px] flex-wrap" v-if="shipping != 'weight'">
                     <span
                         class="gradient-green min-w-[98px] text-[12px] font-semibold text-white rounded-[23px] flex justify-center items-center py-[5px] px-[20px]">{{
-                        $t('the_free') }}</span>
+                            $t('the_free') }}</span>
                     <span
                         class="gradient-green min-w-[98px] text-[12px] font-semibold text-white rounded-[23px] flex justify-center items-center py-[5px] px-[20px] ">{{
                             $t('most_affordable') }}</span>

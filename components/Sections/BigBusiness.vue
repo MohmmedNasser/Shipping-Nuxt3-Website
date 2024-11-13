@@ -10,7 +10,7 @@
                 <p class="font-semibold mb-[22px] text-white max-w-full lg:max-w-[688px] text-center leading-[25px]">
                     {{ $t("enterprise_package_subhead") }}
                 </p>
-                <NuxtLink to=""
+                <NuxtLink to="/contacts"
                     class="second-btn min-w-[313px] p-[9px] justify-center gap-[10px] font-bold text-[12px]">
                     <span> {{ $t("header.contact_us") }} </span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 28 28">

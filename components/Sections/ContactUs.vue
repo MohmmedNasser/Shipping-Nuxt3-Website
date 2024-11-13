@@ -44,7 +44,7 @@
                         {{ $t('send_your_inquiry_we_will_respond') }}
                     </p>
                     <div class="flex justify-end">
-                        <NuxtLink to=""
+                        <NuxtLink to="/contacts"
                             class="btn btn-white min-w-[241.72px] gap-[8.2px] px-[63px] py-[11px] font-bold text-sm md:text-base">
                             <span>
                                 {{ $t("header.contact_us") }}

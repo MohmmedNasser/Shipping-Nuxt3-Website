@@ -9,7 +9,7 @@
                         </NuxtImg>
                     </div>
 
-                    <button id="scrollUpButton" @click="scrollUpButton"
+                    <div id="scrollUpButton" @click="scrollUpButton"
                         class="go-top second-btn w-[35px] h-[35px] lg:w-[48px] lg:h-[48px] rounded-full overflow-hidden flex items-center justify-center ltr:-rotate-180">
                         <svg xmlns="http://www.w3.org/2000/svg" width="19.159" height="19.159"
                             viewBox="0 0 19.159 19.159">
@@ -19,7 +19,7 @@
                                     transform="translate(0 19.159) rotate(-90)" fill="#fff" />
                             </g>
                         </svg>
-                    </button>
+                    </div>
 
                 </div>
                 <div
@@ -73,7 +73,7 @@
                             class="group w-[25px] h-[25px] lg:w-[30px] lg:h-[30px] bg-white rounded-full flex items-center justify-center transition duration-[300ms] hover:bg-[#245955]"
                             target="_blank">
                             <img :src="'/img/' + social.icon" :alt="social.siteName"
-                                class="w-auto lg:w-[40%] group-hover:invert" loading="lazy">
+                                class="w-auto lg:w-[40%] group-hover:invert" :title="social.siteName" loading="lazy">
                         </a>
                     </li>
                 </ul>
@@ -93,17 +93,17 @@ const footerList = [
         colName_en: 'More about us',
         links: [
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'من نحن',
                 text_en: 'About Us',
             },
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'الأسئلة الشائعة',
                 text_en: 'FAQ'
             },
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'سياسة الارجاع',
                 text_en: 'Return Policy'
             },
@@ -114,32 +114,32 @@ const footerList = [
         colName_en: 'Help',
         links: [
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'شروط الاستخدام',
                 text_en: 'Terms of Use',
             },
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'سياسة الخصوصية',
                 text_en: 'Privacy Policy',
             },
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'شروط الشحن',
                 text_en: 'Shipping Terms',
             },
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'الشحنات المحظورة',
                 text_en: 'Prohibited Shipments',
             },
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'المدونة',
                 text_en: 'Blogs',
             },
             {
-                to: '/#',
+                to: '/',
                 text_ar: 'تواصل معنا',
                 text_en: 'Contact Us',
             }
@@ -174,22 +174,22 @@ const workTime = [
 const socialMedia = [
     {
         siteName: 'X',
-        link: '/#',
+        link: 'https://twitter.com',
         icon: 'footer-x.svg'
     },
     {
         siteName: 'instagram',
-        link: '/#',
+        link: 'http://instagram.com',
         icon: 'footer-instagram.svg'
     },
     {
         siteName: 'tiktok',
-        link: '/#',
+        link: 'https://www.tiktok.com/en/',
         icon: 'footer-tiktok.svg'
     },
     {
         siteName: 'snap',
-        link: '/#',
+        link: 'https://www.snapchat.com/',
         icon: 'footer-snap.svg'
     },
 ];

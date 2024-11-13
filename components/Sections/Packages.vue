@@ -9,9 +9,9 @@
                         }}</span>
                 </h5>
 
-                <a href="" class="main-btn min-w-[202px] py-[8px] px-[50px] font-bold mt-[20px]">
+                <NuxtLink to="/pricing" class="main-btn min-w-[202px] py-[8px] px-[50px] font-bold mt-[20px]">
                     <span>{{ $t("compare_the_packages") }}</span>
-                </a>
+                </NuxtLink>
             </div>
 
             <div
@@ -65,7 +65,7 @@
                                 <span class="text-[14px] font-semibold flex items-center gap-[10px] flex-shrink-0">
                                     <NuxtImg
                                         :src="packageItem.name === 'free' ? '/img/check-main.svg' : '/img/check-second.svg'"
-                                        loading="lazy">
+                                        loading="lazy" :alt="packageItem.name" :title="packageItem.name">
                                     </NuxtImg>
                                     <span>
                                         {{ locale == 'ar' ? item.name_ar : item.name_en }}
@@ -78,7 +78,7 @@
                         </ul>
                     </div>
                     <div class="mt-[21.3px]">
-                        <NuxtLink to=""
+                        <NuxtLink to="/pricing"
                             class="second-btn w-full gap-[12px] font-bold text-[16px] p-[11px] flex items-center justify-center">
                             <span>{{ $t("subscribe_package") }}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
