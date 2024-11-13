@@ -37,7 +37,7 @@
                     class="social-media-box absolute top-2/4 translate-y-[-50%] end-0 z-[4] border-[0.3px] border-solid border-white/[0.7] rounded-[26px] bg-black/[0.2] py-[20px] px-[11px] transition-all duration-[800ms] hover:border-[#E0980D] hover:bg-gradient-to-tr hover:from-[#E0980D] hover:to-[#E0980D]">
                     <ul class="flex flex-row md:flex-col items-start md:items-center gap-[20.8px]">
                         <li>
-                            <a href="https://twitter.com/" target="_blank">
+                            <a href="https://twitter.com/" target="_blank" title="twitter">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15.52" height="15.533"
                                     viewBox="0 0 15.52 15.533">
                                     <path id="X_logo_2023_original"
@@ -48,7 +48,7 @@
                         </li>
 
                         <li>
-                            <a href="http://instagram.com" target="_blank">
+                            <a href="http://instagram.com" target="_blank" title="instagram">
                                 <svg id="Dribbble-Light-Preview" xmlns="http://www.w3.org/2000/svg" width="18.204"
                                     height="18.2" viewBox="0 0 18.204 18.2">
                                     <g id="icons">
@@ -61,7 +61,7 @@
                         </li>
 
                         <li>
-                            <a href="https://www.tiktok.com/en/" target="_blank">
+                            <a href="https://www.tiktok.com/en/" target="_blank" title="tiktok">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15.353" height="17.668"
                                     viewBox="0 0 15.353 17.668">
                                     <path id="tiktok-svgrepo-com"
@@ -72,7 +72,7 @@
                         </li>
 
                         <li>
-                            <a href="https://www.snapchat.com/" target="_blank">
+                            <a href="https://www.snapchat.com/" target="_blank" title="snapchat">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="19.392" height="19.168"
                                     viewBox="0 0 19.392 19.168">
                                     <g id="c" transform="translate(-4.749 -4.98)">

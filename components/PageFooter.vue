@@ -71,7 +71,7 @@
                     <li v-for="(social, index) in socialMedia" :key="index">
                         <a :href="social.link"
                             class="group w-[25px] h-[25px] lg:w-[30px] lg:h-[30px] bg-white rounded-full flex items-center justify-center transition duration-[300ms] hover:bg-[#245955]"
-                            target="_blank">
+                            target="_blank" :title="social.siteName">
                             <img :src="'/img/' + social.icon" :alt="social.siteName"
                                 class="w-auto lg:w-[40%] group-hover:invert" :title="social.siteName" loading="lazy">
                         </a>
