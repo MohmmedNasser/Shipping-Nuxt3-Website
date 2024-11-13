@@ -139,5 +139,9 @@
     "message_field_required": "Message field is required",
     "email_must_valid": "Email must be valid",
     "phone_number_must_be_14_digits": "Phone number must be at least 14 digits",
-    "message_must_least_10_characters": "Message must be at least 10 characters"
+    "message_must_least_10_characters": "Message must be at least 10 characters",
+    "website_title": "MyCN Company - Shipping and Import Services from China",
+    "website_description": "MYCN is one of the best air and sea shipping companies, offering reliable and fast shipping services for businesses and individuals with guaranteed high standards of security and quality.",
+    "og_title": "MyCN - Top Air and Sea Shipping Company",
+    "og_description": "Creating online stores and providing shipping and import services from China"
 }

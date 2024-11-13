@@ -8,6 +8,22 @@
 
 <script setup lang="ts">
 
+const { t } = useI18n();
+
+useSeoMeta({
+    title: `${t('header.packages')}`,
+    description: `${t('website_description')}`,
+    ogTitle: `${t('og_title')}`,
+    ogDescription: `${t('og_description')}`,
+    ogImage: 'https://i.postimg.cc/P5hpNP23/mycn-og-2.png',
+    ogUrl: 'https://shipping-nuxt3.vercel.app',
+    twitterTitle: `${t('og_title')}`,
+    twitterDescription: `${t('og_description')}`,
+    twitterImage: 'https://i.postimg.cc/P5hpNP23/mycn-og-2.png',
+    twitterCard: 'summary'
+});
+
+
 const pageDataHeading = {
     title_ar: 'الباقات',
     title_en: 'packages',

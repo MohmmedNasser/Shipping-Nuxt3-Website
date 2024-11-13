@@ -7,13 +7,24 @@
   </div>
 </template>
 <script setup>
-const { locale, locales } = useI18n();
+const { t, locale, locales } = useI18n();
 
 useHead({
+  titleTemplate: `%s | ${t('website_title')}`,
   htmlAttrs: {
     dir: locale.value === 'ar' ? 'rtl' : 'ltr',
     lang: locale.value,
   },
+});
+
+useHead({
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/ico',
+      href: '/img/favicon.ico'
+    }
+  ]
 });
 
 const { $i18n } = useNuxtApp();

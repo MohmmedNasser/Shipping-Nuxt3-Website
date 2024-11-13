@@ -144,7 +144,6 @@
                     class="img-fluid" loading="lazy">
             </div>
         </section>
-
     </div>
 </template>
 
@@ -157,7 +156,20 @@ import Swal from 'sweetalert2'
 import 'sweetalert2/dist/sweetalert2.min.css';
 
 // import { useI18n } from 'vue-i18n'
-const { t, locale } = useI18n()
+const { t, locale } = useI18n();
+
+useSeoMeta({
+    title: `${t('header.contact_us')}`,
+    description: `${t('website_description')}`,
+    ogTitle: `${t('og_title')}`,
+    ogDescription: `${t('og_description')}`,
+    ogImage: 'https://i.postimg.cc/P5hpNP23/mycn-og-2.png',
+    ogUrl: 'https://shipping-nuxt3.vercel.app',
+    twitterTitle: `${t('og_title')}`,
+    twitterDescription: `${t('og_description')}`,
+    twitterImage: 'https://i.postimg.cc/P5hpNP23/mycn-og-2.png',
+    twitterCard: 'summary'
+});
 
 const pageDataHeading = {
     title_ar: 'إتصل بنا',
