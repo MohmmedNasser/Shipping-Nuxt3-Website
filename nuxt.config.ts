@@ -8,6 +8,11 @@ export default defineNuxtConfig({
   plugins: [
     '~/plugins/i18n.js'  // Register the i18n plugin
   ],
+  runtimeConfig: {
+    public: {
+      sitUrl: process.env.PUBLIC_URL
+    }
+  },
   app: {
     head: {
       charset: 'utf-8',
