@@ -8,7 +8,7 @@
 
 A multi-page website specializing in shipping and import services from China, developed using Nuxt 3 and Tailwind CSS.
 
-**🍿 Live preview:** https://test.com
+**🍿 Live preview:** https://shipping-nuxt3.vercel.app
 
 **🌐language** : Arabic and English
 

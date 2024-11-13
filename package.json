@@ -28,6 +28,7 @@
     "@nuxt/devtools": "^1.5.1",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
+    "sass-embedded": "^1.80.7",
     "sweetalert2": "^11.14.1"
   }
 }
